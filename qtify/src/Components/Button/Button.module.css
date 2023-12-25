@@ -5,3 +5,7 @@ button {
   padding: 10px 16px;
   cursor: pointer;
 }
+
+button:hover {
+  color: var(--color-white);
+}

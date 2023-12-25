@@ -1,12 +1,11 @@
 import "./App.css";
 import Button from "./Components/Button/Button";
 import Search from "./Components/Search/Search";
-
+import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <Button>Give Feedback</Button>
-      <Search placeholder={"Search a album of your choice"} />
+      <Navbar></Navbar>
     </div>
   );
 }
