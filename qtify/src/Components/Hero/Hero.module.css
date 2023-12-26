@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  text-align: center;
+  gap: 30px;
+}
+.heroImage {
+  width: 212px;
+  height: 212px;
+}
+
+.text {
+  width: 556px;
+  height: 100px;
+}

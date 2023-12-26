@@ -1,11 +1,11 @@
 import "./App.css";
-import Button from "./Components/Button/Button";
-import Search from "./Components/Search/Search";
 import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar searchData={""}></Navbar>
+      <Hero />
     </div>
   );
 }

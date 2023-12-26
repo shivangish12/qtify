@@ -3,6 +3,7 @@
   align-items: center;
   height: 48px;
   justify-content: center;
+  width: 568px;
 }
 
 .search {
@@ -13,10 +14,6 @@
   border-bottom-right-radius: 0px;
   border: 1px solid var(--color-black);
   padding: 14px 20px;
-}
-
-.search:focus {
-  outline: 0.5px groove;
 }
 
 .searchButton {
