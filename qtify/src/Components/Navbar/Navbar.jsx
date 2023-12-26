@@ -12,7 +12,7 @@ function Navbar({ searchData }) {
         placeholder={"Search a album of your choice"}
         searchData={searchData}
       ></Search>
-      <Button>Give your feedback</Button>
+      <Button>Give feedback</Button>
     </nav>
   );
 }
