@@ -6,8 +6,7 @@ import Logo from "../Logo/Logo";
 function Navbar({ searchData }) {
   return (
     <nav className={styles.navbar}>
-      {/* <Logo /> */}
-      <img src="./Logo.png" alt="Logo" />
+      <Logo />
 
       <Search
         placeholder={"Search a album of your choice"}
