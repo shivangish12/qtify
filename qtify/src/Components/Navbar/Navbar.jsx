@@ -6,9 +6,8 @@ import Logo from "../Logo/Logo";
 function Navbar({ searchData }) {
   return (
     <nav className={styles.navbar}>
-      <a href="/">
-        <Logo />
-      </a>
+      <Logo />
+
       <Search
         placeholder={"Search a album of your choice"}
         searchData={searchData}
