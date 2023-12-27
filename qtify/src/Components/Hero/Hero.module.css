@@ -5,6 +5,7 @@
   height: 270px;
   text-align: center;
   gap: 30px;
+  background-color: var(--color-black);
 }
 .heroImage {
   width: 212px;
