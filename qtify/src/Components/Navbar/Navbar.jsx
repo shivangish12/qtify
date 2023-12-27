@@ -5,7 +5,7 @@ import Search from "../Search/Search";
 import Logo from "../Logo/Logo";
 function Navbar({ searchData }) {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <a href="/">
         <Logo />
       </a>
