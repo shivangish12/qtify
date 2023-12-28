@@ -5,7 +5,7 @@ import Card from "../Card/Card";
 import { useState } from "react";
 
 export default function Section({ title, data, type }) {
-  const [carouselToggle, setCarouselToggle] = useState(true);
+  const [carouselToggle, setCarouselToggle] = useState(false);
   const handleToggle = () => {
     setCarouselToggle((prevState) => !prevState);
   };
