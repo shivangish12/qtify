@@ -8,7 +8,7 @@ import Filters from "../Filters/Filters";
 
 export default function Section({ title, data, filterSource, type }) {
   const [carouselToggle, setCarouselToggle] = useState(true);
-  const [filters, setFilters] = useState({ key: "all", label: "All" });
+  const [filters, setFilters] = useState([{ key: "all", label: "All" }]);
   const [selectedFilterIndex, setSelectedFilterIndex] = useState(0);
   const handleToggle = () => {
     setCarouselToggle((prevState) => !prevState);
